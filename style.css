@@ -1,0 +1,62 @@
+body{
+  background-color: rgb(245 245 245);
+  margin: 0;
+}
+
+#header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #806dfa;
+  color: white;
+  font-size: larger;
+}
+
+#header ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap:20px
+}
+
+#header ul li a{
+  text-decoration: none;
+  color: white;
+}
+#header ul li a:hover {
+  text-decoration: none;
+  color: rgb(249, 126, 126);
+}
+
+#main{
+  background-color: white;
+  padding: 50px;
+  height: 500px;
+  margin: 70px 150px;
+  border-radius: 25px;
+}
+
+#about h2{
+  text-align: justify;
+}
+
+
+#galery div{
+  display: flex;
+  justify-content: space-around;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+}
+
+footer h5{
+  height: 50px;
+  background-color: #806dfa;
+  color: white;
+  font-size: larger;
+  text-align: center;
+}
+
